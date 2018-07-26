@@ -45,6 +45,7 @@
     .skills {
         flex-direction: column;
         margin: 0;
+        padding-top:20px;
     }
     .text{
         width: 165px;
