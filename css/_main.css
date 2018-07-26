@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "WebFont",Arial, Helvetica, sans-serif;  
+}
+body{
+   background: #ACC9C4;  
+}
+@font-face { 
+    font-family: "WebFont";
+    src: url(fonts/Freight\ Sans\ Light.otf) format("truetype"); 
+}
+h5{
+    text-transform: uppercase;
+    color: #69696B;
+    text-decoration: underline;
+}
+ul{
+    padding: 20px 35px;
+}
+li{
+    list-style: circle;
+    padding: 5px;
+    
+}
+#container{
+    height: 200vh;
+    background: linear-gradient(#9EB9B4, #CAEDE6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    background: linear-gradient(#E8E8EA, #EDEDEF);
+    width: 80%;
+    height: 90%;
+    box-shadow:  10px -10px 30px rgba(0, 0, 0, .5), inset 0 3px 20px rgba(255, 255, 255, 0.9);
+    display: flex;
+
+}
+#firstcolumn{
+ width: 39.5%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.round{
+   border: 2px solid #69696B; 
+   border-radius: 50%;
+   padding: 2%;
+   margin-bottom: 20px;
+  
+}
+#mainimage{
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    background: url(img/me2.jpg);
+    border-radius: 50%;
+}
+#border{
+    height: 90%;
+    width: 0.5%;
+    background: #9D9D9F;
+    margin: auto;
+}
+#secondcolumn{
+    width: 60%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo h1,h4{
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 1.5em;   
+   letter-spacing: 3px;
+}
+.logo h4{
+    color: #5F9FB7;
+    padding-bottom: 20px;  
+}
+
+#profile-icon{
+    width: 30px;
+    height: 30px;
+    background: url(img/icons8-running-32.png) no-repeat center;
+    
+}
+#firstcolumn span{
+    padding: 30px;
+    text-align: justify;
+}
+.rightline{
+    background: #69696B;
+    height: 2px;
+    width: 65px;
+    position: relative;
+    top: -20px;
+    right: 81px;
+}
+.leftline{
+    background: #69696B;
+    height: 2px;
+    width: 65px;
+    position: relative;
+    top: -18px;
+    left: 111px;
+}
+#contact-icon{
+    width: 30px;
+    height: 30px;
+    background: url(img/icons8-phone-32.png) no-repeat center;
+}
+#skills-icon{
+    width: 30px;
+    height: 30px;
+    background: url(img/icons8-job-32.png) no-repeat center;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+  
+    width: 110px;
+    height: 25px;
+}
+.skills{
+display: flex;
+flex-direction: row;
+margin: 10px;
+}
+.skills {
+    padding: 10px;
+}
+#book{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: url(img/icons8-book-32.png);
+    margin: 10px;
+}
+#hobbies{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: url(img/icons8-trekking-32.png);
+    margin: 10px;
+}
+#teamwork{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: url(img/icons8-user-groups-32.png);
+    margin: 10px;
+}
+#creative{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: url(img/icons8-idea-32.png);
+    margin: 10px;
+}
+.texticon{
+    padding:  0 2px;
+    text-align: center;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    width: 90%;
+    background: #69696B;
+}
+.text{
+    width: 200px;
+    height: 25px;
+    background: #EBEBED;
+    position: relative;
+    top: -10px;
+    text-align: center;
+}
+#education-icon{
+    width: 30px;
+    height: 30px;
+    background: url(img/icons8-graduation-cap-32.png) no-repeat center;
+    border-radius: 50%;
+}
+#tecnologies-icon{
+    width: 30px;
+    height: 30px;
+    background: url(img/icons8-intelligence-32.png) no-repeat center;
+}
+#language-icon{
+    width: 30px;
+    height: 30px;
+    background: url(img/icons8-language-32.png) no-repeat center;
+    
+}
+.round:hover #language-icon {transform: rotateY(180deg);}
+.round:hover #tecnologies-icon {transform: rotateY(180deg);}
+.round:hover #education-icon {transform: rotateY(180deg);}
+.round:hover #contact-icon {transform: rotateY(180deg);}
+.round:hover #profile-icon {transform: rotateY(180deg);}
+.round:hover #skills-icon {transform: rotateY(180deg);}
+
+
+.round:hover{
+    cursor: pointer;
+    border: 2px solid #5F9FB7;
+}
+#toicon{
+    margin: 10px;
+}
