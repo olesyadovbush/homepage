@@ -44,8 +44,8 @@
 @media only screen and (max-width: 639px) and (min-width: 250px){
     .skills {
         flex-direction: column;
-        margin-top: 30px;
-        padding-top:20px;
+        margin: 0;
+        padding-top: 30px;
     }
     .text{
         width: 165px;
